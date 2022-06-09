@@ -1,8 +1,6 @@
 package com.codewars.kyu8;
 
 import java.util.Arrays;
-import java.util.List;
-import java.util.OptionalInt;
 
 public class SumOfElements {
     public static void main(String[] args) {
