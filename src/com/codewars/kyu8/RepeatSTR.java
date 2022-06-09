@@ -1,4 +1,4 @@
-package com.CodeWars.Kyu8;
+package com.codewars.kyu8;
 
 
 public class RepeatSTR {
