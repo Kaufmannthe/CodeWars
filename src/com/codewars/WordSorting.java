@@ -18,7 +18,7 @@ public class WordSorting {
         System.out.print("Ordered list: ");
         list.stream()
                 .sorted((s1, s2) -> -s1.compareTo(s2))
-                .map(p1 -> p1 + ", ").forEach((p) -> Arrays.stream(p.split("\\d"))
+                .map(p1 -> p1 + ", ").forEach((p) -> Arrays.stream(p.split("\\d+"))
                         .toList().forEach(System.out::print));
         System.out.println();
 
@@ -29,7 +29,7 @@ public class WordSorting {
         System.out.print("Unordered list: ");
         list.stream()
                 .sorted(String::compareTo)
-                .map(p1 -> p1 + ", ").forEach((p) -> Arrays.stream(p.split("\\d"))
+                .map(p1 -> p1 + ", ").forEach((p) -> Arrays.stream(p.split("\\d+"))
                         .toList().forEach(System.out::print));
         System.out.println();
     }
